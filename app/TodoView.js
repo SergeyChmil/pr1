@@ -24,7 +24,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 TodoView = __decorate([
                     core_1.Component({
                         selector: 'todo-view',
-                        template: "\n      <p>ToDo View</p>\n"
+                        template: "\n      <h3>Task name</h3>\n      <p>Description</p>\n      <button type='button' class='btn btn-success'>Done</button>\n      <button type='button' class='btn btn-danger'>Delete</button>\n"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], TodoView);
